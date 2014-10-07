@@ -1,6 +1,8 @@
 <?php namespace Hpkns\Sti;
 
-trait StiTrait {
+use Illuminate\Database\Eloquent\Model;
+
+class StiBase extends Model {
 
     /**
      * The name of the database fields that indicates the class name of the object
