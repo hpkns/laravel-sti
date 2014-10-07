@@ -1,0 +1,22 @@
+{
+    "name": "hpkns/laravel-sti",
+    "description": "A trait to unleach the power of the STI on your Eloquent models",
+    "license": "MIT",
+    "keywords": ["Laravel", "Eloquent", "STI"],
+    "authors": [
+        {
+            "name": "Thomas Hupkens",
+            "email": "thomas@hupkens.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hpkns\\Sti\\": "Sti/"
+        }
+    },
+    "minimum-stability": "stable"
+}
